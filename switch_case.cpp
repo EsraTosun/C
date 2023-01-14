@@ -8,9 +8,7 @@ int main(){
 	int islem;
 	int musterinumarasi;
 	int ustlimit=2000;
-	
-	//Değişkenler int main den hemen sonra ya da önce gösterilir(int ile kullanılır ve noktalı virgül gelir sonuna)
-	
+		
 	
 	printf("MUSTERI NUMARASI GIRINIZ:");
 	scanf("%d",&musterinumarasi);
