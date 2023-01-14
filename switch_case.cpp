@@ -1,12 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
 
-/*  int tutar;
-	int bakiye=5000;
-	int islem;
-	int musterinumarasi;
-	int ustlimit=2000;  */
-
 int main(){
     
 	int tutar;
@@ -15,7 +9,7 @@ int main(){
 	int musterinumarasi;
 	int ustlimit=2000;
 	
-	//Değişkenler int main den hemen sonra ya da önce gösterilir(int ile kullanılır ve noktalı virgül gelir sonuna)
+	//DeÄŸiÅŸkenler int main den hemen sonra ya da Ã¶nce gÃ¶sterilir(int ile kullanÄ±lÄ±r ve noktalÄ± virgÃ¼l gelir sonuna)
 	
 	
 	printf("MUSTERI NUMARASI GIRINIZ:");
@@ -29,13 +23,13 @@ int main(){
 		printf("4-KART IADESI \n");
 		scanf("%d",&islem);
 		
-		// if koşul ifadesi demek eğer şart sağlanmıyorsa gerçekleşmez
-		// if de birden fazla satır olduğunda süslü parantez kullanır {} if deki yapılıcak işlem parantesiz içine yazılır.
+		// if koÅŸul ifadesi demek eÄŸer ÅŸart saÄŸlanmÄ±yorsa gerÃ§ekleÅŸmez
+		// if de birden fazla satÄ±r olduÄŸunda sÃ¼slÃ¼ parantez kullanÄ±r {} if deki yapÄ±lÄ±cak iÅŸlem parantesiz iÃ§ine yazÄ±lÄ±r.
 	
 	switch(islem)
 	
-	   //switch yapısı şıklıdır.Yukarıda seçtiğin işleme göre o işlemin yapılmasını sağlar.
-	   // Şıklarda case ifadesi kullanılır ve sonuna iki nokta gelir.
+	   //switch yapÄ±sÄ± ÅŸÄ±klÄ±dÄ±r.YukarÄ±da seÃ§tiÄŸin iÅŸleme gÃ¶re o iÅŸlemin yapÄ±lmasÄ±nÄ± saÄŸlar.
+	   // ÅÄ±klarda case ifadesi kullanÄ±lÄ±r ve sonuna iki nokta gelir.
 	   //her case ve if ifadesinin sonuna break gelir. Sonuna da ; gelir (break;) 
 	   //switch ifadesinin sonuna default ifadesi gelir ve sonuna da : gelir (default:)
 	   
@@ -46,7 +40,7 @@ int main(){
 		scanf("%d",&tutar);
 		
 	if (tutar>bakiye)
-	{   printf("YETERLİ BAKİYENİZ YOK");
+	{   printf("YETERLÄ° BAKÄ°YENÄ°Z YOK");
 	    break;
 		}	
 	if(tutar>ustlimit)
@@ -80,7 +74,7 @@ int main(){
 	else
 		printf("MUSTERI NUMARASINI HATALI GIRDINIZ		");
 		
-		//Else yapısı if den sonra gelir. Eğer ifadedeki if koşulu sağlanmıyorsa elsedeki işlem gerçekleşir 
+		//Else yapÄ±sÄ± if den sonra gelir. EÄŸer ifadedeki if koÅŸulu saÄŸlanmÄ±yorsa elsedeki iÅŸlem gerÃ§ekleÅŸir 
 		
 		
 	getch();
