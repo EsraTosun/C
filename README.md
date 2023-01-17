@@ -1,2 +1,2 @@
 # C
-Algoritma mantığını öğrenirken yazdığım kodlar
+The codes I wrote while learning algorithm logic
